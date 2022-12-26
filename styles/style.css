@@ -42,7 +42,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    padding: 18px 18px 6px 0;
+    margin: 18px 18px 6px 0;
     color: #FFFFFF;
 }
 .header__lang-link-En {
@@ -53,8 +53,93 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    padding: 18px 0 6px;
+    margin: 18px 0 6px;
     text-decoration: none;
     color: #FFFFFF;
 }
-
+.lead {
+    display: flex;
+    flex-direction: column;
+}
+.lead__title {
+    width: 720px;
+    height: 200px;
+    margin: 56px auto 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.lead__subtitle {
+    width: 640px;
+    height: 72px;
+    margin: 0 auto 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.lead__image{
+    width: 984px;
+    height: 615px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lead__caption{
+    width: 160px;
+    height: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    margin: 8px 0 0 148px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+.intro__title {
+    width: 690px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 92px 0 45px 148px;
+    color: #FFFFFF;
+}
+.intro__text {
+  width: 690px;
+  height: 208px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0 0 33px 148px;
+  color: #FFFFFF;
+}
+.intro__list {
+  width: 690px;
+  height: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  margin: 0 0 0 148px;
+  padding: 0;
+  color: #FFFFFF;  
+}
