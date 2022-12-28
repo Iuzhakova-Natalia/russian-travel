@@ -233,6 +233,10 @@
   color: #FFFFFF;
   border: 1px solid red;
 }
+.place__link:hover {
+  opacity: 0.8;
+}
+
 .place__paragraph {
   max-width: 484px;
   min-height: 116px;
@@ -256,15 +260,20 @@
     padding-bottom: 92px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-image: url(../images/cover-background.jpg);
     background-repeat: no-repeat;
-   
-   
+    margin: 0 48px;
 }
-.cover__link {
 
+.cover__overlay {
+  display: block;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, 0.3);
+  width: 100%;
+  min-height: 740px;
 }
+
 .cover__title {
   max-width: 560px;
   min-height: 152px;
@@ -274,7 +283,8 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 0;
+  margin: 245px  auto 0;
+  padding-bottom: 32px;
   color: #FFFFFF;
 }
 .cover__subtitle {
@@ -286,7 +296,7 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   color: #FFFFFF;
 }
 
@@ -299,6 +309,8 @@
   font-style: normal;
   font-weight: 400;
   margin-bottom: 24px;
+  margin-right: 48px;
+  margin-left: 48px;
   border: 1px solid red;
 }
 .footre__links {
