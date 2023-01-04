@@ -1,0 +1,16 @@
+.paragraphs {
+  max-width: 100%;
+  min-height: 116px;  
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraphs {
+    max-width: 456px;
+  }   
+}
+
+@media screen and (max-width: 768px) {
+  .paragraphs {
+    max-width: 352px;
+  }
+}
