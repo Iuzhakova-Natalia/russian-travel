@@ -23,8 +23,8 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .page {
-    max-width: 380px;
+    max-width: 320px;
   }
 }

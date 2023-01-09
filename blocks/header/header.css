@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,5 +26,4 @@
     min-height: 42px;
     margin: 16px 16px 0;
   }
-  
 }

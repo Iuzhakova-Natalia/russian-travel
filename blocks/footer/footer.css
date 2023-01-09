@@ -8,7 +8,6 @@
   font-weight: 400;
   margin: 92px  48px 24px;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,5 +20,14 @@
   .footer {
     max-width: 720px;
     margin: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    min-height: 310px;
+    flex-direction: column;
+    margin: 64px 118px 24px 16px;
   }
 }

@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   margin: 0 48px;
   box-sizing: border-box;
-  border: 1px solid red;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,5 +23,13 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    background-image: url(../../images/cover-backgroundS.jpg);
   }
 }

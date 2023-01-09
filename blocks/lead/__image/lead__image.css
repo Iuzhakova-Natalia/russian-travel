@@ -3,6 +3,7 @@
   min-height: 615px;
   margin-left: auto;
   margin-right: auto;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,5 +15,11 @@
 @media screen and (max-width: 768px) {
   .lead__image {
     min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .lead__image {
+    min-height: 200px;
   }
 }

@@ -1,5 +1,13 @@
 .footre__links {
   max-width: 550px;
-  height: 18px;
+  min-height: 18px;
   list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+  .footre__links {
+    min-height: 248px;
+    display: flex;
+    flex-direction: column;
+  }
 }

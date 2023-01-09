@@ -8,14 +8,13 @@
   text-align: center;
   color: #FFFFFF;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
   
 @media screen and (max-width: 1024px ) {
   .lead {
     max-width: 928px;
-    min-height: 962px;
+    /*min-height: 962px;*/
     margin: 48px 48px 0;
   }
 }
@@ -23,8 +22,14 @@
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    min-height: 862px;
+    /*min-height: 862px;*/
     margin: 48px 0 0;
   }
-  
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+    min-height: 406px;
+  }
 }

@@ -8,7 +8,6 @@
   font-weight: 400;
   margin: 92px auto 0 148px;
   color: #FFFFFF;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,4 +21,12 @@
     max-width: 720px;
     margin-left: 24px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    min-height: 754px;
+    margin: 64px 16px 0;
+ } 
 }
