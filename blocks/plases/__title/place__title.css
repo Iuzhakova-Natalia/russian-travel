@@ -16,8 +16,11 @@
 @media screen and (max-width: 768px) {
   .place__title {
     max-width: 340px;
+    min-height: 46px;
     font-size: 42px;
     line-height: 46px;
+  }
+  .place__title:first-child {
     letter-spacing: 1px;
   }
 } 

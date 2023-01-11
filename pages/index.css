@@ -5,6 +5,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link_activ/header__lang-link_activ.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 @import url(../blocks/lead/lead.css);
@@ -20,6 +21,7 @@
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item-list/photo-grid__item-list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/plases/places.css);

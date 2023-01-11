@@ -1,0 +1,17 @@
+.header__lang-link_activ {
+  max-width: 30px;
+  min-height: 28px;
+  text-decoration-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.header__lang-link_activ  {
+  margin: 18px 18px 6px 0;
+}
+    
+@media screen and (max-width: 320px) {
+  .header__lang-link_activ {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -2,7 +2,7 @@
   max-width: 984px;
   min-height: 585px;
   display: grid;
-  grid-template-columns: fit-content(460px) minmax(320px, 1fr);
+  grid-template-columns: fit-content(460px) minmax(288px, 1fr);
   grid-template-rows:  repeat(2, min-content);
   gap: 48px 40px;
   padding-bottom: 80px;
@@ -20,6 +20,7 @@
   .place {
     max-width: 928px;
     min-height: 564px;
+    grid-template-columns: fit-content(440px) minmax(288px, 1fr);
     column-gap: 32px;
   }
 }
@@ -27,6 +28,7 @@
 @media screen and (max-width: 768px) {
   .place {
     min-height: 434px;
+    grid-template-columns: fit-content(340px) minmax(288px, 1fr);
     column-gap: 28px;
     padding-bottom: 73px;
   }
@@ -34,14 +36,14 @@
 
 @media screen and (max-width: 620px) {
   .place {
-    grid-template-columns: minmax(400px, 1fr); 
+    grid-template-columns: minmax(400px, 1fr);
+    row-gap: 32px;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
     min-width: 320px;
     grid-template-columns: minmax(320px, 1fr);
-    column-gap: 32px;
     padding-bottom: 50px;
   }
 }

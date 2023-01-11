@@ -7,12 +7,11 @@
   font-style: normal;
   font-weight: 400;
   margin: 92px  48px 24px;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    max-width: 920px;
+    max-width: 928px;
   }
 }
 
@@ -23,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .footer {
     max-width: 186px;
     min-height: 310px;
