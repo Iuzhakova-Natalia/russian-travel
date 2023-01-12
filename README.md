@@ -2,4 +2,6 @@
 
 В проекте находится информация, ссылки и иллюстрации о популярных местах в России.
 
-[Мой сайт](https://iuzhakova-natalia.github.io/russian-travel) 
+Проект написан по методологии БЭМ
+
+[ссылка на сайт](https://iuzhakova-natalia.github.io/russian-travel) 
