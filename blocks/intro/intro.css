@@ -1,6 +1,5 @@
 .intro {
   max-width: 690px;
-  min-height: 429px;
   display: flex;
   flex-direction: column;
   font-family: 'Inter';
@@ -27,7 +26,6 @@
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    min-height: 754px;
     margin: 64px 16px 0;
  } 
 }
