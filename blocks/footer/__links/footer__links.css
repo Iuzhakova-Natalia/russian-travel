@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 370px) {
   .footer__links {
+    min-height: 246px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

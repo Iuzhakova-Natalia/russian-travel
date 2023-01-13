@@ -8,6 +8,7 @@
   padding-bottom: 80px;
   font-family: 'Inter';
   font-style: normal;
+  list-style-type: none;
   color: #FFFFFF;
   box-sizing: border-box;
 }
@@ -40,7 +41,7 @@
     row-gap: 32px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 401px) {
   .place {
     min-width: 320px;
     grid-template-columns: minmax(320px, 1fr);

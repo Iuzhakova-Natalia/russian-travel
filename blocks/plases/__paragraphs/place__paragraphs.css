@@ -1,17 +1,17 @@
-.paragraphs {
+.place__paragraphs {
   max-width: 484px;
   min-height: 116px; 
 
 }
 
 @media screen and (max-width: 1024px) {
-  .paragraphs {
+  .place__paragraphs {
     max-width: 456px;
   }   
 }
 
 @media screen and (max-width: 768px) {
-  .paragraphs {
+  .place__paragraphs {
     max-width: 352px;
   }
 }
