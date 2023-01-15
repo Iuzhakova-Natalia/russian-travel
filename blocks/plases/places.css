@@ -1,13 +1,20 @@
 .places {
+  max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 92px 148px;
-  box-sizing: border-box;
+  margin: 92px 148px; 
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     margin: 92px 48px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .places {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 

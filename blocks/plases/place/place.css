@@ -1,12 +1,10 @@
 .place {
-  max-width: 984px;
+  width: 100%;
   display: grid;
   grid-template-columns: fit-content(460px) minmax(288px, 1fr);
   grid-template-rows:  repeat(2, min-content);
   gap: 48px 40px;
   padding-bottom: 80px;
-  font-style: normal;
-  list-style-type: none;
   color: #FFFFFF;
 }
 
@@ -17,8 +15,14 @@
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    grid-template-columns: fit-content(440px) minmax(400px, 1fr);
+    grid-template-columns: fit-content(440px) minmax(288px, 1fr);
     column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .place {
+    grid-template-columns: fit-content(390px) minmax(288px, 1fr); 
   }
 }
 
