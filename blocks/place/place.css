@@ -32,6 +32,10 @@
     column-gap: 28px;
     padding-bottom: 73px;
   }
+
+  .place:first-child {
+    letter-spacing: 1PX;
+  }
 } 
 
 @media screen and (max-width: 620px) {
